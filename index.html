@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Encode+Sans+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Work/img/favicon.png"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Wolff</title>
+</head>
+<body>
+    <!--Header-->
+    <div id="outer-container">
+        <header class="container"> 
+            <div id="logo">
+                <img id="desktop-logo" src="img/logo.png" />
+                <img id="mobile-logo" src="img/mobile-logo.png"/>
+            </div>
+            <div id="language">
+                <div id="english">
+                    <img src="img/british.png" alt="English">
+                </div>
+                <div id="brazil">
+                    <img src="img/brazil.png" alt="Brazil">
+                </div>
+            </div>
+            <div class="logo-row">								
+                <img  class="line-shadow" src="img/shadow.png" />
+            </div>
+        
+            <nav class="top-nav">
+                <ul>
+                    <li><a href="#">O Grupie</a></li>
+                    <li><a href="#">Realizacje</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Kariera</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--Main Navigation-->
+        <nav class="container main-nav">
+                <label for="drop_nav">Menu</label>
+                <input type="checkbox" name="" id="drop_nav">
+            <ul class="nav_ul">
+                <li class="nav-link"><a href=""><i class="ubermenu-icon fa fa-home" ></a></i></li>
+                <li class="nav-link"><a href="">Biuro Projektowe</a></li>
+                <li class="nav-link"><a href="#" onclick="openNav()">Produkty</a></li>
+                <li class="nav-link"><a href="">Montaże/Modernizacje/Serwis</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--Main Section-->
+    <section class="container" id="main">
+        <div id="slogan">
+            <h1>Dostarczamy<br>bezpieczeństwo<br>dla przemysłu</h1>
+            <div class="zigzag"
+                style="width: 10%;min-height: 10px;background: 0 repeat-x url(&#039;data:image/svg+xml;utf-8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3C%21DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20width%3D%2210px%22%20height%3D%228px%22%20viewBox%3D%220%200%2018%2015%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cpolygon%20id%3D%22Combined-Shape%22%20fill%3D%22%23ebebeb%22%20points%3D%228.98762301%200%200%209.12771969%200%2014.519983%209%205.40479869%2018%2014.519983%2018%209.12771969%22%3E%3C%2Fpolygon%3E%3C%2Fsvg%3E&#039;);">
+            </div>
+            <h2>My<span id="tricker">DOSTARCZAMY</span><br>Ty śpisz spokojnie</h2>
+        </div>
+    </section>
+
+    <!--Section Products-->
+    <section id="products">
+        <h1>Wybierz interesującą Cię kategorię</h1>
+        <div class="gallery-container">
+            <div class="gallery">
+                <div class="products"><i class="fas fa-pencil-ruler"></i><span>Biuro<br>projektowe</span></div>
+                <div class="products-hover">
+                    <span>Wykonamy dla Ciebie projekt instalacji</span>
+                    <button>więcej</button>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="products"><i class="fas fa-fire-extinguisher"></i><span>Bezpieczeństwo<br>pożarowe</span></div>
+                <div class="products-hover">
+                    <span>Wykonamy dla Ciebie projekt instalacji</span>
+                    <button>więcej</button>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="products"><i class="fas fa-bomb"></i><span>Bezpieczeństwo<br>wybuchowe</span></div>
+                <div class="products-hover">
+                    <span>Wykonamy dla Ciebie projekt instalacji</span>
+                    <button>więcej</button>   
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="products"><i class="fas fa-user-shield"></i><span>Armatura<br>przemyslowa</span></div>
+                <div class="products-hover">
+                    <span>Wykonamy dla Ciebie projekt instalacji</span>
+                    <button>więcej</button>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="products"><i class="fas fa-dumpster-fire"></i><span>Ogrzewanie EX</span></div>
+                <div class="products-hover">
+                    <span>Wykonamy dla Ciebie projekt instalacji</span>
+                    <button>więcej</button>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="products"><i class="far fa-lightbulb"></i><span>Oświetlenie EX</span></div>
+                <div class="products-hover">
+                    <span>Wykonamy dla Ciebie projekt instalacji</span>
+                    <button>więcej</button>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="products"><i class="fas fa-microchip"></i><span>Urządzenia dla<br>przemyslu</span></div>
+                <div class="products-hover">
+                    <span>Wykonamy dla Ciebie projekt instalacji</span>
+                    <button>więcej</button>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="products"><i class="fas fa-wrench"></i><span>Montaże/<br>Modernizacje/<br>Serwis</span></div>
+                <div class="products-hover">
+                    <span>Wykonamy dla Ciebie projekt instalacji</span>
+                    <button>więcej</button>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <!--Custom script-->
+    <script src="script.js"></script>
+    </body>
+</html>
